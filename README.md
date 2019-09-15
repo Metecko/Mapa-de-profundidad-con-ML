@@ -32,7 +32,7 @@ Como existen muchas imagenes que deben tener el mismo target (ya que el angulo d
 
 Para no darle siempre mucha informacion a la red, decidi setear las entradas de manera aleatoria. Es decir, de vez en cuando darle una pura imagen, o hasta a veces los 8 angulos. Significa que la entrada a la red es una lista de 8 elementos, con al menos uno de ellos la imagen de entrada, los demás se rellenan con tensores nulos (tf.zeros([1, 256, 256, 3], tf.float32))
 
-Los resultados para una cara real es el siguiente (para 20 epocas:
+Los resultados para una cara real es el siguiente (para 20 epocas):
 
 ![MImetodo](https://raw.githubusercontent.com/Metecko/Mapa-de-profundidad-con-ML/master/imgreadme/mimetodo.png)
 
